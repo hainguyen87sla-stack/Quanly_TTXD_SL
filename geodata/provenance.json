@@ -1,0 +1,24 @@
+{
+  "importedAt": "2026-10-10",
+  "sourcePath": "public/data/son-la-75-communes.geojson",
+  "sourceName": "vietnamese-provinces-database",
+  "sourceSnapshot": "geojson_11Mar2026",
+  "sourceSha256": "83c1ca1776ec1eae391a297a38261168c24ccb68643171ead6ea73d8b22e3e85",
+  "count": 75,
+  "uniqueCodes": 75,
+  "invalidSourceGeometryCount": 1,
+  "normalizationRepairs": [
+    {
+      "code": "03760",
+      "name": "Xã Mường Bám",
+      "reason": "Ring Self-intersection[103.425493 21.39496]",
+      "method": "shapely.make_valid; giữ riêng bản gốc; cần xác minh lại",
+      "areaBeforeDegrees2": 0.006636199691000061,
+      "areaAfterDegrees2": 0.006636199691000052
+    }
+  ],
+  "displaySimplificationToleranceDegrees": 0.00012,
+  "validationGeometry": "geodata/sonla.full.geojson",
+  "status": "Tham khảo; chưa xác nhận là địa giới pháp lý chính thức",
+  "displayBytes": 847788
+}

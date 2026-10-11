@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-10",
+  "milestone": "Giao diện tỉnh, nhập GPXD và ghi phản ánh trên bản đồ",
+  "status": "completed_local",
+  "applicationUrl": "http://127.0.0.1:3100",
+  "team": {
+    "root": "Khung, bản đồ, ranh giới, tích hợp và kiểm chứng",
+    "ui": "Giao diện, biểu mẫu và trợ năng",
+    "data": "Lưu trữ SQLite, phiên, kiểm tra đầu vào và mã hóa",
+    "qa": "Kiểm thử độc lập API, trình duyệt, dữ liệu và bảo mật"
+  },
+  "verification": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "unitTests": { "passed": 16, "total": 16 },
+    "httpAndBrowserChecks": { "passed": 13, "total": 13 },
+    "productionBuild": "passed_local",
+    "boundaryFeatures": 75,
+    "boundaryOfficiallyApproved": false,
+    "externalBasemap": "connection_failed_in_test_environment",
+    "dependencyAuditReportedVulnerabilities": 0,
+    "initialRealPermits": 0,
+    "initialRealCitizenReports": 0
+  },
+  "remainingForProvincialProduction": [
+    "Tài khoản cá nhân, phân quyền đơn vị và địa bàn tại máy chủ/cơ sở dữ liệu",
+    "Xác nhận nguồn ranh giới chính thức và hình học đã chuẩn hóa",
+    "Nền bản đồ được kiểm chứng truy cập và cấp phép phù hợp",
+    "Tệp giấy phép/ảnh, giao xử lý phản ánh và nghiệp vụ kiểm tra/vi phạm",
+    "Sao lưu, khôi phục, giám sát, thử tải và môi trường triển khai chính thức"
+  ]
+}
